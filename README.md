@@ -60,6 +60,10 @@ I’m Sachindra kr.Thakur, a versatile Software Engineer building seamless digit
 - [LinkedIn](https://www.linkedin.com/in/sachindra-thakur-280077139/)
 - [GitHub](https://github.com/sachindrat2)
 
+## 📧 Contact
+
+Official Email: [sachindrathakur570@gmail.com](mailto:sachindrathakur570@gmail.com)
+
 ---
 
 _Built with ❤️ and React_

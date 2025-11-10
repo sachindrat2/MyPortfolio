@@ -165,7 +165,7 @@ const About = () => {
               </IconButton>
               <IconButton
                 component="a"
-                href="https://github.com/"
+                href="https://github.com/sachindrat2"
                 target="_blank"
                 rel="noopener noreferrer"
                 color="primary"

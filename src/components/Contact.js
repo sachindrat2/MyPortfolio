@@ -37,7 +37,7 @@ const Contact = () => (
             </Button>
           </Stack>
           <Stack direction="row" spacing={3} justifyContent="center" sx={{ mt: 2 }}>
-            <Button href="mailto:your.email@example.com" target="_blank" rel="noopener noreferrer" sx={{ color: 'primary.main', fontWeight: 600, textTransform: 'none', ':hover': { color: 'info.main' } }}>Email</Button>
+            <Button href="mailto:sachindrathakur570@gmail.com" target="_blank" rel="noopener noreferrer" sx={{ color: 'primary.main', fontWeight: 600, textTransform: 'none', ':hover': { color: 'info.main' } }}>Email</Button>
             <Button href="https://www.linkedin.com/in/sachindra-thakur-280077139/" target="_blank" rel="noopener noreferrer" sx={{ color: 'primary.main', fontWeight: 600, textTransform: 'none', ':hover': { color: 'info.main' } }}>LinkedIn</Button>
             <Button href="https://github.com" target="_blank" rel="noopener noreferrer" sx={{ color: 'primary.main', fontWeight: 600, textTransform: 'none', ':hover': { color: 'info.main' } }}>GitHub</Button>
           </Stack>
