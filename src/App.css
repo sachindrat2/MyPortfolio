@@ -1,5 +1,10 @@
+
 .App {
-  text-align: center;
+  min-height: 100vh;
+  font-family: 'Inter', 'Poppins', 'Segoe UI', Arial, sans-serif;
+  color: var(--text-primary);
+  transition: background-color 0.4s;
+  -webkit-font-smoothing: antialiased;
 }
 
 .App-logo {
@@ -13,19 +18,28 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* Remove old header styles, use section backgrounds instead */
+
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--primary), var(--accent));
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Section fade-in animation */
+.App > * {
+  animation: fadeIn 1.2s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +49,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Flat, Vrit-branded utility */
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 8px;
+}
+
+.App > * {
+  animation: fadeIn 1.2s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }
